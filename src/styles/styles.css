@@ -3,6 +3,22 @@ body {
     background-image: url('https://lh3.googleusercontent.com/proxy/u9PZ8xc1MJBuRHbQ4quIeisXP1UcJ6F8Skgt7NQAKM7Bc1IA8jpFaXfjC-YhSL7OkEyakHTN53ZnGNLDoD2WLnHm7EBgoerYc_v7F15Kz9Gnbe_EG5LBTIGhPKq2DTgMAumChMWlf6yqyUt9yEI');
     background-size: 100%;
     background-repeat: no-repeat;
+
+    background: linear-gradient(-45deg, #a70442, #610382, #5413ee);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+    
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+        }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #container {
